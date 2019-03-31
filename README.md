@@ -26,11 +26,11 @@ Contributors can decide Where to invest and can Acknowledge the requests for mon
 
 
 ***Create Request***
-![demo4](https://github.com/PrinceGupta1999/CrowdCoin/blob/master/images/all_requests.png)
+![demo4](https://github.com/PrinceGupta1999/CrowdCoin/blob/master/images/new_request.png)
 
 
 ***Requests***
-![demo5](https://github.com/PrinceGupta1999/CrowdCoin/blob/master/images/new_request.png)
+![demo5](https://github.com/PrinceGupta1999/CrowdCoin/blob/master/images/all_expenditure_requests.png)
 
 ***Community Page***
 ![demo5](https://github.com/PrinceGupta1999/CrowdCoin/blob/master/images/community_page.png)
