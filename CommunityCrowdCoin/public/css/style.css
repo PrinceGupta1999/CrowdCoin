@@ -1,0 +1,19 @@
+.fa-thumbs-up {
+  color: #00c;
+  float: right;
+  padding-left: 20px;
+}
+.fa-thumbs-down {
+  color: #c00;
+  float: right;
+}
+.fa-thumbs-up:hover {
+  color: #00f;
+}
+.fa-thumbs-down:hover {
+  color: #f00;
+}
+h2 {
+  padding: 20px;
+  text-align: center;
+}

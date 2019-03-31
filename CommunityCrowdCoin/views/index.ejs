@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.css" integrity="sha256-QVBN0oT74UhpCtEo4Ko+k3sNo+ykJFBBtGduw13V9vw=" crossorigin="anonymous" />
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/style.css">
+    </head>
+    <body>
+        <div class="ui secondary menu container">
+          <a class="active item" href="http://localhost:3000/">
+           CrowdCoin
+          </a>
+          <div class="right menu">
+            <div class="item">
+              <a class="item" >Campaigns</a>
+              <a class="item" >+</a>
+            </div>
+          </div>
+        </div>
+        <div id="ui container">
+          <div class="ui container">
+            <h1 class="text-dark bg-secondary "><%= campaign.name %></h1>
+            <p class="lead text-muted "><%= campaign.description %></h1>
+          </div>
+          <div class="ui container">
+              <div class="ui row">
+              	  <div class="col-9">
+                      <form action="/" method="POST" class="ui form">
+                        <div class="form-row">
+                          <div class="col-12 mb-2">
+                                <input class="form-control" type="text" name="author" placeholder="Name">
+                          </div>
+                        </div>
+                        <div class="form-row">
+                          <div class="col-10">
+                              <textarea class="form-control" row = "5" placeholder="Add your Comment" name="text"></textarea>
+                          </div>
+                          <input class="form-control" style="display: none"  type="text" name="name" value=<%= campaign.name %> >
+                          <input class="form-control" style="display: none" name="description" value=<%= campaign.description %>>
+                        </div>
+                        <div class = "form-row">
+                          <div class="col-12">
+                              <button class="ui button primary fluid">Submit</button>
+                          </div>
+                        </div
+                      </form>
+                  </div>
+              </div>
+          </div>
+          <div class="ui container">
+              <div class="row">
+                <h2>Comments</h2>
+                  <div class="col-12">
+                      <% comments.forEach(function(comment) {
+                        if (comment.campaign == campaign.name){%>
+                      	  <div class="row">
+                              <div class="col-md-12">
+                                  <strong><%= comment.author %></strong>
+                                  <p class="muted"><%= comment.text %><i class="fas fa-thumbs-up fa-1x pr-4"></i>
+                                  <i class="fas fa-thumbs-down fa-1x"></i></p>
+
+                              </div>
+                          </div>
+                      <% }}) %>
+                  </div>
+              </div>
+          </div>
+        </div>
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js" integrity="sha256-t8GepnyPmw9t+foMh3mKNvcorqNHamSKtKRxxpUEgFI=" crossorigin="anonymous"></script>
+        <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script> -->
+    </body>
+</html>
