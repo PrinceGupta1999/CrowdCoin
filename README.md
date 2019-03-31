@@ -1,25 +1,40 @@
 # CrowdCoin
+
+## The Problem
+To Increase Transparency and Prevent Fraudulent Activities that arise around the world of StartUps and Platforms that have till now been developed around it such as **Kickstarter**. 
+Although stringent measures such as symmetric encryption are in place to make e-payment safe and secure, it is still vulnerable to hacking.
+Enterprises with in-house e-payment systems must incur additional costs in procuring, installing and maintaining sophisticated payment-security technologies.
+There is no guarantee that people who post projects on Kickstarter will deliver on their projects, use the money to implement their projects, or that the completed projects will meet backers' expectations.
 A mockup of [KickStarter](https://www.kickstarter.com/) built using smart contracts written in solidity. The app is built using Reactjs with the help of Nextjs.
+
+## What We Propose
+Making transaction histories more transparent and secure through the use of blockchain technology. Because Blockchain is a type of distributed ledger, all network participants share the same documentation as opposed to individual copies.
+Contributors can decide Where to invest and can Acknowledge the requests for money made by the Project Creators through their votes.The creator can only use the money if a minimum number of contributors approve a certain request. It will make sure the money is used for Necessities rather than Luxuries.
+
 
 ## Demo Screenshots
 ***Home Page***
-![demo2](https://github.com/chaharnishant11/CrowdCoin/blob/master/Screenshots/homePage.png)
+![demo2](https://github.com/PrinceGupta1999/CrowdCoin/blob/master/images/all_campaigns.png)
 
 
 ***Campaign Details***
-![demo1](https://github.com/chaharnishant11/CrowdCoin/blob/master/Screenshots/CampaignDetails.png)
+![demo1](https://github.com/PrinceGupta1999/CrowdCoin/blob/master/images/campaign_description.png)
 
 
 ***Create Campaign***
-![demo3](https://github.com/chaharnishant11/CrowdCoin/blob/master/Screenshots/createCampaign.png)
+![demo3](https://github.com/PrinceGupta1999/CrowdCoin/blob/master/images/new_campaign.png)
 
 
 ***Create Request***
-![demo4](https://github.com/chaharnishant11/CrowdCoin/blob/master/Screenshots/createRequest.png)
+![demo4](https://github.com/PrinceGupta1999/CrowdCoin/blob/master/images/all_requests.png)
 
 
 ***Requests***
-![demo5](https://github.com/chaharnishant11/CrowdCoin/blob/master/Screenshots/Requests.png)
+![demo5](https://github.com/PrinceGupta1999/CrowdCoin/blob/master/images/new_request.png)
+
+***Community Page***
+![demo5](https://github.com/PrinceGupta1999/CrowdCoin/blob/master/images/community_page.png)
+
 ## Installation
 
 ### Install Git
@@ -42,11 +57,37 @@ cd CrowdCoin
 ```bash
 npm install
 ```
+* Change Working Directory to CommunityCrowdChain and Install Dependencies
+```bash
+cd CommunityCrowdChain
+npm install
+```
+* Change Back to Root Directory
+```bash
+cd ..
+```
 * Initiate the NodeJs server
 ```bash
 npm run dev
 ```
 * Access the [Application](http://localhost:3000)
 
-## Utitlities
-The use of blockchain will help reduce frauds which are prevalent.There are some improvements which i have tried to make in this mockup over Kickstarter like the contributers can decide where to invest and can vote for the same and as the startup can only use the money if a minimum number of contributers approve for a certain request the contributers money is not used for luxuries. 
+### Technology Stack
+* NodeJS
+* ReactJs
+* Solidity
+* MongoDB
+* FastAI
+* Ethereum Smart Contract
+
+## Features
+#### Secure Investment
+Information is stored across a network of computers instead of on a single server, makes it very difficult for hackers to compromise the transaction data.
+#### Voting Power for Investors
+The creator can only use the money if a minimum number of contributors approve a certain request. It will make sure the money is used for Necessities rather than Luxuries.
+#### Profit Distribution
+The owner of the startup is required to periodically enter details about revenue generation. Any profit that is generated is automatically distributed  among the investors providing investors with additional layer of security of interests of investors.
+#### Investor Community
+Cut through the noise with quality, peer-reviewed investment research from top analysts and rising stars in the fund industry.
+#### Machine Learning
+Generating of finance related parameters such as gross profit, liquidity ratio, quick asset ratio etc. to produce a graph of these metrics and using Machine Learning Techniques(XGBoost, Random Forest Classifaction) to model performance of these Startups aiding them to make investment choices.
