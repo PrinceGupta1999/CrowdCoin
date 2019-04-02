@@ -43,6 +43,12 @@ Contributors can decide Where to invest and can Acknowledge the requests for mon
 ### Install NodeJs and NPM
 * Follow instructions from [NodeJs Website](https://nodejs.org/en/download/)
 
+### Install Metamask Extension
+* Follow instructions from [Metamask Website](https://metamask.io/)
+
+### Install MongoDB
+* Follow instructions from [MongoDB Website](https://www.mongodb.com/)
+
 ### Cloning Repository and Installation
 * Open Command Prompt in the Directory You Want to Install.
 * Clone the Repository
