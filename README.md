@@ -30,7 +30,7 @@ Contributors can decide Where to invest and can Acknowledge the requests for mon
 
 
 ***Requests***
-![demo5](https://github.com/PrinceGupta1999/CrowdCoin/blob/master/images/new_request.png)
+![demo5](https://github.com/PrinceGupta1999/CrowdCoin/blob/master/images/new_expenditure_request.png)
 
 ***Community Page***
 ![demo5](https://github.com/PrinceGupta1999/CrowdCoin/blob/master/images/community_page.png)
@@ -53,7 +53,7 @@ Contributors can decide Where to invest and can Acknowledge the requests for mon
 * Open Command Prompt in the Directory You Want to Install.
 * Clone the Repository
 ```bash
-git clone https://github.com/chaharnishant11/CrowdCoin.git
+git clone https://github.com/PrinceGupta1999/CrowdCoin.git
 ```
 * Change working Directory to the Repository
 ```bash
