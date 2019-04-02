@@ -26,7 +26,7 @@ Contributors can decide Where to invest and can Acknowledge the requests for mon
 
 
 ***Create Request***
-![demo4](https://github.com/PrinceGupta1999/CrowdCoin/blob/master/images/new_request.png)
+![demo4](https://github.com/PrinceGupta1999/CrowdCoin/blob/master/images/new_expenditure_request.png)
 
 
 ***Requests***
@@ -43,11 +43,17 @@ Contributors can decide Where to invest and can Acknowledge the requests for mon
 ### Install NodeJs and NPM
 * Follow instructions from [NodeJs Website](https://nodejs.org/en/download/)
 
+### Install Metamask Extension
+* Follow instructions from [Metamask Website](https://metamask.io/)
+
+### Install MongoDB
+* Follow instructions from [MongoDB Website](https://www.mongodb.com/)
+
 ### Cloning Repository and Installation
 * Open Command Prompt in the Directory You Want to Install.
 * Clone the Repository
 ```bash
-git clone https://github.com/chaharnishant11/CrowdCoin.git
+git clone https://github.com/PrinceGupta1999/CrowdCoin.git
 ```
 * Change working Directory to the Repository
 ```bash
